@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav {
+    background-color: rgb(20, 20, 151);
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+nav>ul {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+nav>ul>a {
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.5s;
+}
+
+nav>ul>a:hover {
+    border-bottom: 1px solid yellow;
+}
+
+
+
+/* ---------------------HERO SECTION ---------------- */
+#hero-section{
+    /* border: 2px solid red; */
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#first > h2{
+    color: rgb(20, 20, 151);
+    font-weight: normal;
+    font-size:40px;
+    margin: 16px 0px;
+}
+
+#first > p{
+    color: rgb(20, 20, 151);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    width: 300px;
+    margin: 16px 0px;
+    line-height: 24px;
+}
+
+#first > button{
+    color:rgb(20, 20, 151);
+    background: none;
+    border: 1px solid rgb(20, 20, 151);
+    font-size: 18px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+#second>img{
+    width: 600px;
+    height: 400px;
+
+}
+
+
+
+/* ---------------------PERKS SECTION ---------------- */
+#perks{
+    /* border: 2px solid red; */
+    padding: 10px 100px;
+}
+
+#perks > h2{
+    color: rgb(20, 20, 151);
+    font-size: 32px;
+    margin: 10px 0px;
+}
+
+#perks-containner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.perk-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perk-title{
+    margin-top: 14px;
+    font-size: 24px;
+    color: rgb(20, 20, 151);
+}
+
+.perk-para{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(53, 53, 179);
+}
+
+
+/* ---------------------------MEMBERSHIP--------------------------------- */
+#membership{
+    /* border: 2px solid red; */
+    padding: 20px 100px;
+}
+
+#membership>h2{
+    color: rgb(20, 20, 151);
+    margin: 10px;
+    font-size: 36px;
+}
+#membership-containner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.membership-box{
+    /* border: 2px solid green; */
+    height: 280px;
+    width: 450px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.membership-box > img{
+    position: relative;
+    bottom: 10px;
+    height: 100px;
+    width: 450px;
+}
+.membership-box > ul > li{
+    margin: 10px 40px;
+    list-style: disc;
+}
